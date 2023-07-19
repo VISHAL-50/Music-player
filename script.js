@@ -146,7 +146,7 @@ const musics=[
   
   
     audiopath.ontimeupdate = function(){
-      console.log('playing')
+      
       progressed.style.width = Math.floor(audiopath.currentTime*100/audiopath.duration)+"%";
       // Math.floor(audiopath.currentTime);
       const minutes = Math.floor(audiopath.currentTime / 60);
