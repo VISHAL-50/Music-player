@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js" integrity="sha512-YsR46MmyChktsyMMou+Bs74oCa/CDdwft7rJ5wlnmDzMj1mzqncsfJamEEf99Nk7IB0JpTMo5hS8rxB49FUktQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+Bhai+2:wght@600&family=Bitter&family=Inconsolata&family=Poppins:wght@100&family=Scope+One&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="music_container">
+            <h2 id="title">Loues</h2>
+            <h3 id="artist">artist</h3>
+            <div id="img">
+                <img src="pngimg.com - vinyl_PNG111.png" alt="img">
+            </div>
+            <audio id="myaudio" type="audio/mpeg" src="music\Tell-Me-Once-Yo-Yo-Honey-Singh--Alfaaz.mp3"></audio>
+
+            <!-- controls designing -->
+            <div class="progress">
+                <h1 id="initial">00:00</h1>
+                <h1 id="end">00:00</h1>
+            </div>
+            <div class="progress_bar" id="progress_bar" >
+                <div class="progressed" id="progressed">
+
+                </div>
+            </div>
+            <div id="music_controls">
+                <i class="fa-solid fa-backward" id="backward" title="Previous"></i>
+                <i class="fa-solid fa-play main_btn" id="play" title="Play"></i>
+                <!-- <i class="fa-solid fa-pause"id="pause" title="Pause"></i> -->
+                <i class="fa-solid fa-forward" id="forward" title="Next  "></i>
+
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+      
+
+    </script>
+
+</body>
+
+</html>
